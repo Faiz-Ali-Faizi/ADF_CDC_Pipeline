@@ -1,1 +1,4 @@
-cdc_factory/
+dataflow/
+dataset/
+linkedService/
+pipeline/
