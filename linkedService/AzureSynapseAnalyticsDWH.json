@@ -1,0 +1,15 @@
+{
+	"name": "AzureSynapseAnalyticsDWH",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"server": "synapsis.sql.azuresynapse.net",
+			"database": "dedicatedPool",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SystemAssignedManagedIdentity"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
+}

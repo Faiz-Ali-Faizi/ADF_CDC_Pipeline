@@ -1,0 +1,10 @@
+{
+	"name": "ADLS_Customer_Data",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://synapsedh.dfs.core.windows.net/"
+		}
+	}
+}
